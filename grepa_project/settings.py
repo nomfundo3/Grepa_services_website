@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-*wu#31e57l*7pcnv8asxn-pexio8=1%$ggk%*1bh@%5-4&h4^*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "grepa-services-website.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
